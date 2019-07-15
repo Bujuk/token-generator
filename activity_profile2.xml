@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context=".ProfileActivity2"
+    >
+
+
+    <TextView
+        android:id="@+id/textViewUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#6F4E37"
+        android:layout_marginTop="27dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="62dp"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/buttonstarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/show"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:text="TOKEN" />
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="88dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/buttonLogout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="141dp"
+        android:text="VIEW PROCESSING TOKEN" />
+
+</RelativeLayout>

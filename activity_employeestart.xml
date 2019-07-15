@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87AFC7"
+    tools:context=".employeestart">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="412dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginRight="181dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="314dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="121dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Enter the above token number"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginRight="184dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="65dp"
+        android:onClick="process"
+        android:text="COMPLETE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+</android.support.constraint.ConstraintLayout>

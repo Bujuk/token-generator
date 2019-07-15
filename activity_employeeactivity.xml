@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/token1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6A5ACD"
+    tools:context=".employeeactivity">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="225dp"
+        android:layout_marginEnd="223dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginRight="223dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonprocess"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonprocess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="192dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginStart="40dp"
+        android:onClick="start"
+        android:text="START"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttoncomplete"
+        android:layout_width="125dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="184dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginStart="86dp"
+        android:onClick="delete"
+        android:text="COMPLETE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonprocess" />
+
+    <Button
+        android:id="@+id/bu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:layout_marginTop="14dp"
+        android:text="LOGOUT"
+        android:onClick="customer1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncomplete" />
+
+
+</android.support.constraint.ConstraintLayout>
